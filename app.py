@@ -910,4 +910,4 @@ if __name__ == '__main__':
     # app.run(debug=True, ssl_context=context)
     dbm.reset_db()
     mongo_dbm.reset_db()
-    app.run(host='0.0.0.0', port=5000, debug=True, ssl_context=context)
+    app.run(host='0.0.0.0', port=8000, debug=True, ssl_context=context)
