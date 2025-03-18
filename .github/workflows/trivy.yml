@@ -28,7 +28,7 @@ jobs:
       - name: Run Trivy vulnerability scanner (HTML)
         uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
         with:
-          image-ref: 'docker.io/my-organization/my-app:${{ github.sha }}'
+          image-ref: 'mongo:4.4'
           format: 'template'
           template: '@/contrib/html.tpl'
           output: 'trivy-results.html'
