@@ -49,7 +49,7 @@ jobs:
           severity: 'CRITICAL,HIGH'
 
       - name: Upload Trivy HTML Report as an artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: trivy-html-report
           path: trivy-results.html
